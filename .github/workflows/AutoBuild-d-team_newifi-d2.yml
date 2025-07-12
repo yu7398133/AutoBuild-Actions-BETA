@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: NEWIFI D2
+name: NEWIFI D2 20250713
 
 on:
   repository_dispatch:
@@ -29,9 +29,7 @@ on:
         default: 'd-team_newifi-d2'
         type: choice
         options:
-          - 'd-team_newifi-d2'
           - 'd-team_newifi-d2-Clash'
-          - 'd-team_newifi-d2-Lite'
       Tempoary_FLAG:
         description: '固件标签'
         default: 'AUTO'

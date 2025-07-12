@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: NEWIFI D2 20250713
+name: NEWIFI D2 clash
 
 on:
   repository_dispatch:
@@ -30,6 +30,7 @@ on:
         type: choice
         options:
           - 'd-team_newifi-d2-Clash'
+          - 'd-team_newifi-d2-Clash-noad'
       Tempoary_FLAG:
         description: '固件标签'
         default: 'AUTO'
@@ -74,7 +75,7 @@ env:
 
 jobs:
   Compile:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     permissions:
       issues: write
       pull-requests: write

@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: NEWIFI D2 clash
+name: NEWIFI D2 ssr
 
 on:
   repository_dispatch:

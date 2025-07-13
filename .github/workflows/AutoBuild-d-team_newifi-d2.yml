@@ -30,7 +30,6 @@ on:
         type: choice
         options:
           - 'd-team_newifi-d2'
-          - 'd-team_newifi-d2-ssr'
       Tempoary_FLAG:
         description: '固件标签'
         default: 'AUTO'
